@@ -1,0 +1,5 @@
+1. Download a code editor:
+    My favorite is VSCode: https://code.visualstudio.com
+
+2. Download Node:
+    Official Website: https://nodejs.org
