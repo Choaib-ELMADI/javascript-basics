@@ -2,7 +2,10 @@
     - String
     - Number
     - Boolean
-    - undefined
-    - null
+    - undefined (typeof undefined is undefined)
+    - null (typeof null is object)
 
 2. Reference types:
+    * Object
+    * Array (typeof array is object)
+    * Function
