@@ -1,0 +1,7 @@
+> We use variables to store data temporarily.
+> Before ECMAScript, we used to use 'var' to declare a variable.
+> Now, we have 'let' and 'const'.
+> By default, variables in JavaScript are initialized with 'undefined'.
+
+* var VS let VS const:
+    - We cant reassign variables declared using const

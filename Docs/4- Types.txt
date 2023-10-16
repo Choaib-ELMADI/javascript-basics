@@ -1,0 +1,8 @@
+1. Primitives / Value types:
+    - String
+    - Number
+    - Boolean
+    - undefined
+    - null
+
+2. Reference types:
