@@ -1,0 +1,17 @@
+1. What is JavaScript:
+    * JavaScript is one of the most popular programming languages.
+    * By learning JavaScript, you can be either a Frontend Developer, a Backend Developer or even a Full-stack Developer.
+
+2. What can you do with JavaScript:
+    * Web / Mobile Apps
+    * Real-time Networking Apps
+    * Command-line tools
+    * Games
+
+3. Where does JavaScript code run:
+    * Originally, JavaScript was designed to run only on browsers. Every browser has a JavaScript engine that can excute JavaScript code (v8 for Chrome).
+    * In 2009, Node was developed by wrapping the v8 engine from Chrome in a C++ program.
+    * With Node, we can excute JavaScript programs outside browsers. Node provides a run-time environment for JavaScript.
+
+4. JavaScript VS ECMAScript:
+    * ECMAScript is a specification for JavaScript.
