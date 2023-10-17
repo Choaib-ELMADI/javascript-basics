@@ -1,0 +1,7 @@
+* What is this:
+    this references the object that is executing the current function
+
+    // method ---> current object
+    // function -> global object (window, global)
+
+    * Arrow functions inherite this from the containing function
