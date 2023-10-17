@@ -1,0 +1,82 @@
+* Define an object:
+    const circle = {
+        radius: 1,
+        location: {
+            x: 1,
+            y: 1,
+        },
+        isVisible: true,
+        draw: function() {
+            console.log("Draw");
+        }
+    };
+
+* Factory function:
+    A Factory function is a function that returns an object.
+
+    function createCircle(radius) {
+        return {
+            radius,
+            draw() {
+                console.log("Draw");
+            }
+        };
+    }
+
+    --> const circle1 = createCircle(1);
+    --> const circle2 = createCircle(2);
+
+* Constructor function:
+    A Constructor function is a function that creates an object.
+
+    function Circle(radius) {
+        this.radius = radius;
+        this.draw = function() {
+            console.log("Draw");
+        }
+    }
+
+    -> const circle1 = new Circle(1);
+    -> const circle2 = new Circle(2);
+
+    * this is a reference to the object that is excuting this code.
+    * new creates an empty object, set properties and return this new object.
+    * Each object has a constructor function that references the function used to create the object.
+
+* const object:
+    - When we declare an object using const, this doesnt mean that the object is constant, it just means that we cant reassign the variable, but we can always add and delete properties.
+
+    const obj = {
+        radius: 1,
+    };
+    obj.color = "green";
+    delete obj.radius;
+
+* Enumerating properties of an object:
+    const circle = {
+        radius: 1,
+        isVisible: true,
+        draw() {
+            console.log("Draw");
+        },
+    };
+
+    for (let key in circle) console.log(key);
+    for (let key of circle) console.log(key); // ERROR, objects are not iterable
+    for (let key of Object.keys(circle)) console.log(key); // Return the keys
+    for (let entry of Object.entries(circle)) console.log(entry); // Return the key values, each entry is an array
+
+* Clone an object:
+    const circle = {
+        radius: 1,
+        draw() {
+            console.log("Draw");
+        },
+    };
+
+    const another = Object.assign(target, source);
+    -> target can be an empty or an existing object
+    -> source can be one or more objects
+
+    const another = {...source};
+    -> Spread the properties in source inside another
