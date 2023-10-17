@@ -4,8 +4,13 @@
     - Boolean
     - undefined (typeof undefined is undefined)
     - null (typeof null is object)
+    - Symbol (new in ECMAScript)
+
+    * Primitives are copied by their value.
 
 2. Reference types:
-    * Object
-    * Array (typeof array is object)
-    * Function
+    - Object
+    - Array (typeof array is object)
+    - Function
+
+    * Objects are copied by their reference (address).
