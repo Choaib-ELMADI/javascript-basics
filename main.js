@@ -1,4 +1,7 @@
-const date = new Date();
-console.log(date.getDate()); // Day of the month
-console.log(date.getDay()); // Day of the week
-console.log(date.getTime()); // Time in milliseconds since 1970
+const prices = [100, 120, 105, 2014, 230];
+
+const sum = prices.reduce((accumulator, currentValue) => {
+	return accumulator + currentValue;
+}, 0);
+
+console.log(sum);
