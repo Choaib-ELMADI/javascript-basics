@@ -4,4 +4,13 @@
 > By default, variables in JavaScript are initialized with 'undefined'.
 
 * var VS let VS const:
-    - We cant reassign variables declared using const
+    *** const:
+        - We cant reassign variables declared using const
+        - const has a local scoping
+    
+    *** let:
+        - let has a local scoping
+
+    *** var:
+        - var has a function scoping
+        - var global variables are attached to the window object
