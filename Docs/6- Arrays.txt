@@ -1,0 +1,61 @@
+* Adding elements to an array:
+    const numbers = [1, 2, 3, 4];
+
+    // Add 5 at the end of the array (you can add as much as you need)
+    numbers.push(5);
+
+    // Add 0 at the beginning of the array (you can add as much as you need)
+    numbers.unshift(0);
+
+    // Starting from index start, remove deleteCount items, put newItems in their place
+    numbers.splice(start, deleteCount?, newItems);
+
+* Find an item(premitive type) in an array:
+    numbers.indexOf(4); --> return index of 4 or -1
+    numbers.includes(5); -> true or false
+
+* Find an object in an array:
+    const courses = [
+        { title: "HTML/CSS", price: 500 },
+        { title: "JavaScript", price: 1500 },
+        { title: "Reactjs", price: 2000 },
+    ];
+
+    const course = courses.find(function(course) {
+        return course.title === "JavaScript";
+    })
+
+    const course = courses.find(course => course.title === "JavaScript");
+
+* Remove an element from an array:
+    const numbers = [1, 2, 3, 4];
+
+    // Remove last element and return it
+    numbers.pop();
+
+    // Remove first element and return it
+    numbers.shift();
+
+    // Starting from index start, remove deleteCount items
+    numbers.splice(start, deleteCount);
+
+* Filter an array:
+    const numbers = [-4, -3, -2, 0, 1, 2, 3, 4];
+
+    const positiveNumbers = numbers.filter(function(number) {
+        return number >= 0;
+    })
+
+    const negativeNumbers = numbers.filter(number => number < 0)
+
+* Reducing an array:
+    const prices = [100, 120, 105, 2014, 230];
+
+    # let sum = 0;
+    # for (let price of prices) {
+    #     sum += price
+    # }
+
+    const sum = prices.reduce((accumulator, currentValue) => {
+        return accumulator + currentValue;
+    }, 0);
