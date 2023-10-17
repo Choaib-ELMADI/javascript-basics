@@ -1,0 +1,29 @@
+* Function Declaration
+    function walk() {
+        console.log("Walk");
+    }
+    -> Function Declaration are hoisted (can be called before its definition)
+
+* Function Expression
+    let run = function() {
+        console.log("Run");
+    };
+
+* Getters & Setters:
+    const person = {
+        firstName: "Choaib",
+        lastName: "ELMADI",
+
+        get fullName() {
+            return `${person.firstName} ${person.lastName}`;
+        },
+        set fullName(value) {
+            this.firstName = value.split(" ")[0];
+            this.lastName = value.split(" ")[1];
+        },
+    };
+
+    person.fullName = "Hassan ELMADI";
+    console.log(person.fullName);
+
+* 
