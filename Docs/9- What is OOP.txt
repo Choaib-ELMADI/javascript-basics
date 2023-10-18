@@ -1,0 +1,8 @@
+1. Object Oriented Programming:
+    - Object Oriented Programming is a programming paradigm centered around objects rather than functions.
+
+2. 4 Pillars of OOP:
+    * Encapsulation: Group related variables(properties) and functions(methods) into an object.
+    * Abstraction: We can hide some or all the object members. We dont care what's happening inside.
+    * Inheritance: Inherite properties and methods.
+    * Polymorphism: (Many Forms) Refactor ugly switch/case statements.
