@@ -6,3 +6,17 @@
     * Abstraction: We can hide some or all the object members. We dont care what's happening inside.
     * Inheritance: Inherite properties and methods.
     * Polymorphism: (Many Forms) Refactor ugly switch/case statements.
+
+3. Classical vs Prototypical Inheritance:
+                (Shape is the Prototype of Circle)
+                -----------------
+        ------> :     Shape      :
+        |       -----------------
+        |         Commun methods
+        |
+        |
+-----------------
+:     Circle     :
+-----------------
+
+    * A Prototype is issentially a parent of another object.
