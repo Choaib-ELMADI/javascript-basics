@@ -33,3 +33,9 @@
 
 6. Intermediate Function Inheritance:
     * Intermediate function inheritance is a function that takes a Child and a Parent constructors in order to extend the Parent properties to the Child.
+
+7. Polymorphism:
+    * Polymorphism enables to call different implementations based on the type of the object.
+
+8. Mixins - Composition:
+    
