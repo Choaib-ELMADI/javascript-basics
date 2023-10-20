@@ -22,3 +22,14 @@
     * A Prototype is issentially a parent of another object.
     * Instance members are properties & methods defined inside an object directly.
     * Prototype members are properties & methods defined inside the prototype of an object.
+
+4. Resetting the Constructor:
+    * As a best practice, each time you reset the prototype object, reset also the constructor function.
+
+    Circle.prototype = Object.create(Shape.prototype); => Reset the prototype object
+    Circle.prototype.constructor = Circle; => Reset the constructor function
+
+5. Calling the Super Constructor:
+
+6. Intermediate Function Inheritance:
+    * Intermediate function inheritance is a function that takes a Child and a Parent constructors in order to extend the Parent properties to the Child.
