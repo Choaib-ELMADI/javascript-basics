@@ -20,3 +20,5 @@
 -----------------
 
     * A Prototype is issentially a parent of another object.
+    * Instance members are properties & methods defined inside an object directly.
+    * Prototype members are properties & methods defined inside the prototype of an object.
