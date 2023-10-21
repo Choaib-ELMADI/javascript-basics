@@ -1,0 +1,20 @@
+1. Modules:
+    * In reel world applications, we split our code into multiple files.
+    * Each file is called a module.
+    * Benefits:
+        > Increase maintainability
+        > Reuse Modules
+        > Abstraction
+
+2. CommonJS Modules:
+    * In CommonJS, before ECMAScript, we use module.exports = { ... } to export things
+    * and const name = require("./relative-path") to import them
+
+3. ES6 Tooling:
+    * Transpiler = Translator + Compiler
+    -> Transpiler translate modern JavaScript code to ES5 code
+    Example: BABEL
+
+    * Bundler:
+    -> Bundler combines all our JavaScript files into a single file called <- bundle ->
+    Example: WEBPACK
